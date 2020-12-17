@@ -1,0 +1,22 @@
+app:
+  name: cnooc
+  port: :9010
+databases:
+  host: 10.72.78.67
+  port: "27017"
+  username: cnooc
+  password: "1qazXDR%$#@"
+  dbname: cnooc
+  maxOpenConns: "200"
+  maxIdleConns: "100"
+  confName: pracle
+redis:
+  host: 10.72.78.67
+  port: "6379"
+  explre: "60"
+emqtt:
+  host: 10.72.78.67
+  port: "1883"
+  username: admin
+  password: "public"
+  clientID: "mqtt_client"
